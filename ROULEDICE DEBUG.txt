@@ -1,0 +1,832 @@
+Microsoft Windows [Version 10.0.17134.1069]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\19PZmyslony.avtos>cd desktop
+
+C:\Users\19PZmyslony.avtos\Desktop>cd test
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python 3a.py
+Please enter a shopping item: a
+Traceback (most recent call last):
+  File "3a.py", line 4, in <module>
+    shopping.append(word)
+AttributeError: 'str' object has no attribute 'append'
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python 3a.py
+Please enter a shopping item: a
+Please enter a shopping item: a
+Please enter a shopping item: b
+Please enter a shopping item:
+aab
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python rouledice.py
+Traceback (most recent call last):
+  File "rouledice.py", line 7, in <module>
+    d1 = Dice(9)
+NameError: name 'Dice' is not defined
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python rouledice.py
+Traceback (most recent call last):
+  File "rouledice.py", line 8, in <module>
+    d1 = Dice(9)
+NameError: name 'Dice' is not defined
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python rouledice.py
+Traceback (most recent call last):
+  File "rouledice.py", line 5, in <module>
+    import dice.py
+ModuleNotFoundError: No module named 'dice.py'; 'dice' is not a package
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python rouledice.py
+  File "rouledice.py", line 5
+    import Dice from dice
+                   ^
+SyntaxError: invalid syntax
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python rouledice.py
+  File "rouledice.py", line 5
+    import Dice from dice
+                   ^
+SyntaxError: invalid syntax
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python rouledice.py
+  File "rouledice.py", line 5
+    import dice from Dice
+                   ^
+SyntaxError: invalid syntax
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python rouledice.py
+  File "rouledice.py", line 6
+    import dice from dice
+                   ^
+SyntaxError: invalid syntax
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python rouledice.py
+Please enter a number from 1 to 6: 5
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python rouledice.py
+Please enter a number from 1 to 9: 1
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python rouledice.py
+Please enter a number from 1 to 9: 111
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python rouledice.py
+Please enter a number from 1 to 9: 1
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9
+: 5
+How many Dices would you like to roll?
+: 3
+And finally what is your bet? your total credits are 100
+Welcome to rouledice please enter a number from 1 to 9
+: 1
+How many Dices would you like to roll?
+: 1
+And finally what is your bet? your total credits are 100
+Welcome to rouledice please enter a number from 1 to 9
+: 1
+How many Dices would you like to roll?
+: 1
+And finally what is your bet? your total credits are 100
+Welcome to rouledice please enter a number from 1 to 9
+: 1
+How many Dices would you like to roll?
+: 1
+And finally what is your bet? your total credits are 100
+Welcome to rouledice please enter a number from 1 to 9
+: 1
+How many Dices would you like to roll?
+: Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 14, in rouledice
+    try:
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+  File "dice.py", line 23
+    else
+       ^
+SyntaxError: invalid syntax
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+  File "dice.py", line 28
+    if howmanydice =
+                   ^
+SyntaxError: invalid syntax
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+  File "dice.py", line 32
+    if howmanydice =
+                   ^
+SyntaxError: invalid syntax
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9
+: 1
+How many Dices would you like to roll?
+How many dices would you like to roll? (3 max)1
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9
+: 1
+How many Dices would you like to roll?
+How many dices would you like to roll? (3 max)1
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9
+: 2
+How many Dices would you like to roll?
+How many dices would you like to roll? (3 max)2
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9
+: 3
+How many Dices would you like to roll?
+How many dices would you like to roll? (3 max)3
+
+C:\Users\19PZmyslony.avtos\Desktop\test>3
+'3' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\19PZmyslony.avtos\Desktop\test>3
+'3' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9
+: 4
+How many Dices would you like to roll?
+How many dices would you like to roll? (3 max)4
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9
+: 3
+How many Dices would you like to roll?
+How many dices would you like to roll? (3 max)3
+
+C:\Users\19PZmyslony.avtos\Desktop\test>3
+'3' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\19PZmyslony.avtos\Desktop\test>3
+'3' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9
+: 3
+How many Dices would you like to roll?
+How many dices would you like to roll? (3 max)3
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9
+: 1
+How many Dices would you like to roll?
+How many dices would you like to roll? (3 max)1
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9
+: 1
+How many Dices would you like to roll?
+How many dices would you like to roll? (3 max)1
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9
+: 1
+Choose the amount of dices to be rolled from 1 to 31
+I got here
+Welcome to rouledice please enter a number from 1 to 9
+: 1
+Choose the amount of dices to be rolled from 1 to 3
+Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 13, in rouledice
+    howmanydice = int(input("Choose the amount of dices to be rolled from 1 to 3: "))
+ValueError: invalid literal for int() with base 10: ''
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 2
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+: Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 12, in rouledice
+    uinput = input(": ")
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+3
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+5
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+3
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+5
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+4
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+3
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+5
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+5
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+3
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+4
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+6
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 11
+Error not enough dices
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+2
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 13, in rouledice
+    howmanydice = int(input("Choose the amount of dices to be rolled from 1 to 3: "))
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+: 5
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 100
+
+C:\Users\19PZmyslony.avtos\Desktop\test>3
+'3' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 100
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 10000
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100
+: Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 13, in rouledice
+    uinput = input(": ")
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 5
+Choose the amount of dices to be rolled from 1 to 3: 3
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+  File "dice.py", line 17
+    if bet < credits:
+                    ^
+IndentationError: unindent does not match any outer indentation level
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 2
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 2
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+3
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+6
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: -100
+2
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: -100
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+3
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 13, in rouledice
+    uinput = input(": ")
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 4 your number was 1
+I got here
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 14, in rouledice
+    howmanydice = int(input("Choose the amount of dices to be rolled from 1 to 3: "))
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 5
+Dice rolled: 2 your number was 1
+You lost 5 credits! remaining credits: 95
+Welcome to rouledice please enter a number from 1 to 9:
+95 credits
+: 5
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 9
+Dice rolled: 5 your number was 5
+You lost 9 credits! remaining credits: 86
+Welcome to rouledice please enter a number from 1 to 9:
+86 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 14, in rouledice
+    howmanydice = int(input("Choose the amount of dices to be rolled from 1 to 3: "))
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 1 your number was 1
+You lost 1 credits! remaining credits: 99
+Welcome to rouledice please enter a number from 1 to 9:
+99 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 1 your number was 1
+You lost 1 credits! remaining credits: 98
+Welcome to rouledice please enter a number from 1 to 9:
+98 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 1 your number was 1
+You lost 1 credits! remaining credits: 97
+Welcome to rouledice please enter a number from 1 to 9:
+97 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 1 your number was 1
+You lost 1 credits! remaining credits: 96
+Welcome to rouledice please enter a number from 1 to 9:
+96 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 1 your number was 1
+You lost 1 credits! remaining credits: 95
+Welcome to rouledice please enter a number from 1 to 9:
+95 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 1 your number was 1
+You lost 1 credits! remaining credits: 94
+Welcome to rouledice please enter a number from 1 to 9:
+94 credits
+: 1Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 13, in rouledice
+    uinput = input(": ")
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+  File "dice.py", line 28
+    else:
+       ^
+SyntaxError: invalid syntax
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 5 your number was 1
+You lost 1 credits! remaining credits: 99
+Welcome to rouledice please enter a number from 1 to 9:
+99 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 3 your number was 1
+You lost 1 credits! remaining credits: 98
+Welcome to rouledice please enter a number from 1 to 9:
+98 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: cTraceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 15, in rouledice
+    howmanydice = int(input("Choose the amount of dices to be rolled from 1 to 3: "))
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 4 your number was 1
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 2 your number was 1
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 4 your number was 1
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 4 your number was 1
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 4 your number was 1
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 6 your number was 1
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 4 your number was 1
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 11
+Error not enough dices
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 1 your number was 1
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 11
+Error not enough dices
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 4 your number was 1
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 11
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 1 your number was 11
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 5 your number was 1
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 3 your number was 1
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 2 your number was 1
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 17, in rouledice
+    if howmanydice == 1:
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 10
+Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 14, in rouledice
+    if uinput < 10:
+TypeError: '<' not supported between instances of 'str' and 'int'
+
+C:\Users\19PZmyslony.avtos\Desktop\test>
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 11
+Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 14, in rouledice
+    if uinput < 10:
+TypeError: '<' not supported between instances of 'str' and 'int'
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 11
+Dice has only 9 sides!!!
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 13, in rouledice
+    uinput = int(input(": "))
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 1 your number was 1
+You won {credits} credits!
+Welcome to rouledice please enter a number from 1 to 9:
+104 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 1 your number was 1
+You won {credits} credits!
+Welcome to rouledice please enter a number from 1 to 9:
+108 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 16, in rouledice
+    howmanydice = int(input("Choose the amount of dices to be rolled from 1 to 3: "))
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 1 your number was 1
+You won 104 credits!
+Welcome to rouledice please enter a number from 1 to 9:
+104 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 1 your number was 1
+You won 108 credits!
+Welcome to rouledice please enter a number from 1 to 9:
+108 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 1 your number was 1
+You won 112 credits!
+Welcome to rouledice please enter a number from 1 to 9:
+112 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 11
+Dice rolled: 1 your number was 1
+You won 156 credits!
+Welcome to rouledice please enter a number from 1 to 9:
+156 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 1 your number was 1
+You won 160 credits!
+Welcome to rouledice please enter a number from 1 to 9:
+160 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 1
+Dice rolled: 1 your number was 1
+You won 164 credits!
+Welcome to rouledice please enter a number from 1 to 9:
+164 credits
+: 1
+Choose the amount of dices to be rolled from 1 to 3: 1Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 16, in rouledice
+    howmanydice = int(input("Choose the amount of dices to be rolled from 1 to 3: "))
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 9
+Choose the amount of dices to be rolled from 1 to 3: 1
+How much would you like to bet: 100
+Your bet was too high matching the amount of 100 credits you own
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 100
+Dice has only 9 sides!
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 13, in rouledice
+    uinput = int(input(": "))
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 5
+How much would you like to bet: 55
+Dice rolled: 6 your number was 5
+You lost 55 credits! remaining credits: 45
+Welcome to rouledice please enter a number from 1 to 9:
+45 credits
+: Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 13, in rouledice
+    uinput = int(input(": "))
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 9
+How much would you like to bet: 10
+Dice rolled: 1 your number was 9
+You lost 10 credits! remaining credits: 90
+Welcome to rouledice please enter a number from 1 to 9:
+90 credits
+: 9
+How much would you like to bet: 10
+Dice rolled: 4 your number was 9
+You lost 10 credits! remaining credits: 80
+Welcome to rouledice please enter a number from 1 to 9:
+80 credits
+: 10
+Dice has only 9 sides!
+Welcome to rouledice please enter a number from 1 to 9:
+80 credits
+: Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 13, in rouledice
+    uinput = int(input(": "))
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 9
+How much would you like to bet: 10
+Dice rolled: 2 your number was 9
+You lost 10 credits! remaining credits: 90
+Welcome to rouledice please enter a number from 1 to 9:
+90 credits
+: 10Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    class rouledice():
+  File "dice.py", line 13, in rouledice
+    uinput = int(input(": "))
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>python dice.py
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: 9
+How much would you like to bet: 10
+Dice rolled: 4 your number was 9
+You bet on 9 but it rolled on even you get your money back!
+Welcome to rouledice please enter a number from 1 to 9:
+100 credits
+: Traceback (most recent call last):
+  File "dice.py", line 9, in <module>
+    while True:
+  File "dice.py", line 13, in rouledice
+    if uinput < 10:
+KeyboardInterrupt
+
+C:\Users\19PZmyslony.avtos\Desktop\test>

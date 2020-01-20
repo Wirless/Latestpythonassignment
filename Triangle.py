@@ -17,7 +17,7 @@ class Triangle:
 		self.base = b
 		self.height = h
 		self.color = (0, 255, 0)
-		self.pos = [20, 20]
+		self.position = [20, 20]
 		
 	def __str__(self):
 		'''
@@ -30,7 +30,7 @@ class Triangle:
 		Triangle color = (0, 255, 0)
 		Triangle position = [20, 20]
 		'''
-		return f"Triangle base = {self.base}\n Triangle height = {self.height}\n Triangle color = {self.color}\n Triangle position = {self.pos}"
+		return f" Triangle base = {self.base}\n Triangle height = {self.height}\n Triangle color = {self.color}\n Triangle position = {self.position}"
 		
 	def __repr__(self):
 		'''
@@ -54,34 +54,48 @@ class Triangle:
 		>>> Triangle.area(x)
 		25
 		'''
-		return (b*h)/2
+		return (self.base*self.height)/2
 		
 	def perimeter(self):
 		'''
 		(triangle) ->num
 		returns the perimeter of a triangle
 		'''
-		newbase = b/2
-		pit = (newbase**2)+(h**2)
-		return math.sqrt(pit+b+h)
+		newbase = self.base/2
+		pit = (newbase**2)+(self.height**2)
+		hype = math.sqrt(pit)
+		return hype+hype+self.base
 		
-	def set_color(newcolor):
+	def set_color(self, color):
 		'''
 		sets color of triangle
 		(int)+(int)+(int) -> obj.color
 		'''
-		return self.color = newcolor
+		self.color = color
+		return True
 	
-	def set_pos(posz):
+	def set_pos(self,position):
 		'''
 		sets triangle position
 		(int)+(int) -> obj.pos
 		'''
-		return self.pos = posz
+		self.position = position
+		return True
 	
 	def draw(self):
 		'''
 		draw the triangle
 		(obj) -> obj
 		'''
-		return self.triangle
+		print(self.position)
+		return True
+		
+if __name__ == "__main__":
+	x = Triangle(20,20)
+	print(x)
+	print(x.perimeter())
+	print(x.area())
+	x.set_color((100, 100, 100))
+	x.set_pos([100,100])
+	print(x)
+	print(x.__repr__())
